@@ -1,0 +1,10 @@
+{
+  "referenceApk": "com.happyelements.AndroidAnimal.1.162.he.apk",
+  "sources": [
+    "assets/resource/amf/mainscene/trunkskin/trunk_2604/trunkRoot.7afdf8cbb7145eb4b4db95d3c758d1d1.pk2mz",
+    "assets/resource/amf/mainscene/trunkskin/trunk_2604/trunk_light_leaf.1a0c8431604f2c378458fe1ee9443a28.pk2mz"
+  ],
+  "output": "forest-complete.png",
+  "size": [2048, 3004],
+  "processing": "Place the existing forest layer at (0,1900); extend its central trunk using the original vine at (809,280). Blend the forest top and vine ends with smooth alpha transitions. Preserve village world position and forest width."
+}

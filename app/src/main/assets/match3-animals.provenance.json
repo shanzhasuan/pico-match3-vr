@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "spatialcraft.editor-pack-provenance/v1",
+  "managed": false,
+  "generatedAt": "2026-10-16T10:01:20.822Z",
+  "bundle": {
+    "path": "/Users/bytedance/projects/pico-match3-vr/editor-asset/src/main/res3d/SpatialPackContent_autogen2/Build/match3-animals.bundle",
+    "digest": {
+      "algorithm": "sha256",
+      "value": "5fe28bc86eedbe03f0f402cae3f626173b1c6065edeee0090273dacb05b0f24c"
+    },
+    "scenesPath": "/Users/bytedance/projects/pico-match3-vr/editor-asset/src/main/res3d/SpatialPackContent_autogen2/Build/match3-animals.scenes.json",
+    "scenesDigest": {
+      "algorithm": "sha256",
+      "value": "f0402ec5b931919bd91d9fb8da09de335dd252812b227f7d2a6a80036465b443"
+    },
+    "entryScene": "Sources/Scenes/Match3AnimalHeads.usda",
+    "sceneCount": 1
+  },
+  "packageGate": {
+    "status": "pass",
+    "sceneManifestWritten": true,
+    "acceptedSceneMatched": true
+  },
+  "warnings": [
+    {
+      "code": "UNMANAGED_EDITOR_PACKAGE",
+      "message": "This bundle was packaged outside a managed Spatial Editor Workflow Run and has no accepted revision or gate proof."
+    }
+  ]
+}

@@ -1,0 +1,4706 @@
+{
+  "activeScenePath": "Sources/Scenes/Match3AnimalHeads.usda",
+  "scenes": [
+    {
+      "bundlePath": "Sources/Scenes/Match3AnimalHeads.usda",
+      "container": {
+        "appContainer": "Stage",
+        "bounded": false,
+        "contentHost": null,
+        "coordinateSystem": "right-handed, meters",
+        "editorType": "Stage",
+        "isDefault": false,
+        "showUISample": false,
+        "sizeDp": null,
+        "sizeMeters": null,
+        "source": "editor-viewport-container-settings",
+        "spaceRequirement": "FullSpace",
+        "unit": "DevicePoint",
+        "usageHint": "Use Stage for immersive unbounded 3D content."
+      },
+      "entities": [
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup",
+          "name": "BoardGroup",
+          "parentPath": "Root",
+          "path": "Root/BoardGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBase",
+          "name": "BoardBase",
+          "parentPath": "Root/BoardGroup",
+          "path": "Root/BoardGroup/BoardBase",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.03999999910593033,
+              0.019999999552965164
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              4.599999904632568,
+              0.4000000059604645,
+              1.5
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBase/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BoardGroup/BoardBase",
+          "path": "Root/BoardGroup/BoardBase/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardDeck",
+          "name": "BoardDeck",
+          "parentPath": "Root/BoardGroup",
+          "path": "Root/BoardGroup/BoardDeck",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.0949999988079071,
+              0.019999999552965164
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              4.099999904632568,
+              0.15000000596046448,
+              1.100000023841858
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardDeck/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BoardGroup/BoardDeck",
+          "path": "Root/BoardGroup/BoardDeck/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBackplate",
+          "name": "BoardBackplate",
+          "parentPath": "Root/BoardGroup",
+          "path": "Root/BoardGroup/BoardBackplate",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.25999999046325684,
+              -0.08500000089406967
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              4.400000095367432,
+              1.399999976158142,
+              0.15000000596046448
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBackplate/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BoardGroup/BoardBackplate",
+          "path": "Root/BoardGroup/BoardBackplate/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardRim",
+          "name": "BoardRim",
+          "parentPath": "Root/BoardGroup",
+          "path": "Root/BoardGroup/BoardRim",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.11800000071525574,
+              0.019999999552965164
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              4.300000190734863,
+              0.05000000074505806,
+              1.25
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BoardGroup/BoardRim/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BoardGroup/BoardRim",
+          "path": "Root/BoardGroup/BoardRim/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup",
+          "name": "FoxGroup",
+          "parentPath": "Root",
+          "path": "Root/FoxGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxHead",
+          "name": "FoxHead",
+          "parentPath": "Root/FoxGroup",
+          "path": "Root/FoxGroup/FoxHead",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.30000001192092896,
+              0.1899999976158142,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.44999998807907104,
+              0.44999998807907104,
+              0.30000001192092896
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxHead/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FoxGroup/FoxHead",
+          "path": "Root/FoxGroup/FoxHead/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarL",
+          "name": "FoxEarL",
+          "parentPath": "Root/FoxGroup",
+          "path": "Root/FoxGroup/FoxEarL",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.3269999921321869,
+              0.24500000476837158,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.1564343124628067,
+              0.9876883625984192
+            ],
+            "scale": [
+              0.14000000059604645,
+              0.20000000298023224,
+              0.14000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FoxGroup/FoxEarL",
+          "path": "Root/FoxGroup/FoxEarL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarR",
+          "name": "FoxEarR",
+          "parentPath": "Root/FoxGroup",
+          "path": "Root/FoxGroup/FoxEarR",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.27300000190734863,
+              0.24500000476837158,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0.1564343124628067,
+              0.9876883625984192
+            ],
+            "scale": [
+              0.14000000059604645,
+              0.20000000298023224,
+              0.14000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FoxGroup/FoxEarR",
+          "path": "Root/FoxGroup/FoxEarR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxMuzzle",
+          "name": "FoxMuzzle",
+          "parentPath": "Root/FoxGroup",
+          "path": "Root/FoxGroup/FoxMuzzle",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.30000001192092896,
+              0.17499999701976776,
+              0.07500000298023224
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.18000000715255737,
+              0.15000000596046448,
+              0.12999999523162842
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FoxGroup/FoxMuzzle/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FoxGroup/FoxMuzzle",
+          "path": "Root/FoxGroup/FoxMuzzle/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup",
+          "name": "BearGroup",
+          "parentPath": "Root",
+          "path": "Root/BearGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearHead",
+          "name": "BearHead",
+          "parentPath": "Root/BearGroup",
+          "path": "Root/BearGroup/BearHead",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.18000000715255737,
+              0.1899999976158142,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.44999998807907104,
+              0.44999998807907104,
+              0.30000001192092896
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearHead/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BearGroup/BearHead",
+          "path": "Root/BearGroup/BearHead/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearEarL",
+          "name": "BearEarL",
+          "parentPath": "Root/BearGroup",
+          "path": "Root/BearGroup/BearEarL",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.20800000429153442,
+              0.23499999940395355,
+              0.03200000151991844
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.14000000059604645,
+              0.14000000059604645,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearEarL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BearGroup/BearEarL",
+          "path": "Root/BearGroup/BearEarL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearEarR",
+          "name": "BearEarR",
+          "parentPath": "Root/BearGroup",
+          "path": "Root/BearGroup/BearEarR",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.15199999511241913,
+              0.23499999940395355,
+              0.03200000151991844
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.14000000059604645,
+              0.14000000059604645,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearEarR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BearGroup/BearEarR",
+          "path": "Root/BearGroup/BearEarR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearMuzzle",
+          "name": "BearMuzzle",
+          "parentPath": "Root/BearGroup",
+          "path": "Root/BearGroup/BearMuzzle",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.18000000715255737,
+              0.1720000058412552,
+              0.07500000298023224
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.1899999976158142,
+              0.1599999964237213,
+              0.125
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BearGroup/BearMuzzle/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BearGroup/BearMuzzle",
+          "path": "Root/BearGroup/BearMuzzle/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup",
+          "name": "FrogGroup",
+          "parentPath": "Root",
+          "path": "Root/FrogGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogHead",
+          "name": "FrogHead",
+          "parentPath": "Root/FrogGroup",
+          "path": "Root/FrogGroup/FrogHead",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.05999999865889549,
+              0.1899999976158142,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.44999998807907104,
+              0.44999998807907104,
+              0.30000001192092896
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogHead/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FrogGroup/FrogHead",
+          "path": "Root/FrogGroup/FrogHead/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeL",
+          "name": "FrogEyeL",
+          "parentPath": "Root/FrogGroup",
+          "path": "Root/FrogGroup/FrogEyeL",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.0820000022649765,
+              0.23199999332427979,
+              0.06400000303983688
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.11999999731779099,
+              0.11999999731779099,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FrogGroup/FrogEyeL",
+          "path": "Root/FrogGroup/FrogEyeL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeR",
+          "name": "FrogEyeR",
+          "parentPath": "Root/FrogGroup",
+          "path": "Root/FrogGroup/FrogEyeR",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.03799999877810478,
+              0.23199999332427979,
+              0.06400000303983688
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.11999999731779099,
+              0.11999999731779099,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FrogGroup/FrogEyeR",
+          "path": "Root/FrogGroup/FrogEyeR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogSmile",
+          "name": "FrogSmile",
+          "parentPath": "Root/FrogGroup",
+          "path": "Root/FrogGroup/FrogSmile",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.05999999865889549,
+              0.16300000250339508,
+              0.07199999690055847
+            ],
+            "rotation": [
+              0.7071068286895752,
+              0,
+              0,
+              0.7071068286895752
+            ],
+            "scale": [
+              0.05999999865889549,
+              0.0949999988079071,
+              0.05999999865889549
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/FrogGroup/FrogSmile/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/FrogGroup/FrogSmile",
+          "path": "Root/FrogGroup/FrogSmile/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup",
+          "name": "ChickGroup",
+          "parentPath": "Root",
+          "path": "Root/ChickGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickHead",
+          "name": "ChickHead",
+          "parentPath": "Root/ChickGroup",
+          "path": "Root/ChickGroup/ChickHead",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.05999999865889549,
+              0.1899999976158142,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.44999998807907104,
+              0.44999998807907104,
+              0.30000001192092896
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickHead/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/ChickGroup/ChickHead",
+          "path": "Root/ChickGroup/ChickHead/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickBeak",
+          "name": "ChickBeak",
+          "parentPath": "Root/ChickGroup",
+          "path": "Root/ChickGroup/ChickBeak",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.05999999865889549,
+              0.17599999904632568,
+              0.07999999821186066
+            ],
+            "rotation": [
+              0.7071068286895752,
+              0,
+              0,
+              0.7071068286895752
+            ],
+            "scale": [
+              0.14000000059604645,
+              0.14000000059604645,
+              0.14000000059604645
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickBeak/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/ChickGroup/ChickBeak",
+          "path": "Root/ChickGroup/ChickBeak/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestL",
+          "name": "ChickCrestL",
+          "parentPath": "Root/ChickGroup",
+          "path": "Root/ChickGroup/ChickCrestL",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.03999999910593033,
+              0.24400000274181366,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.08500000089406967,
+              0.08500000089406967,
+              0.07000000029802322
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/ChickGroup/ChickCrestL",
+          "path": "Root/ChickGroup/ChickCrestL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestR",
+          "name": "ChickCrestR",
+          "parentPath": "Root/ChickGroup",
+          "path": "Root/ChickGroup/ChickCrestR",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.07999999821186066,
+              0.24400000274181366,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.08500000089406967,
+              0.08500000089406967,
+              0.07000000029802322
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/ChickGroup/ChickCrestR",
+          "path": "Root/ChickGroup/ChickCrestR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup",
+          "name": "OwlGroup",
+          "parentPath": "Root",
+          "path": "Root/OwlGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlHead",
+          "name": "OwlHead",
+          "parentPath": "Root/OwlGroup",
+          "path": "Root/OwlGroup/OwlHead",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.18000000715255737,
+              0.1899999976158142,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.44999998807907104,
+              0.44999998807907104,
+              0.30000001192092896
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlHead/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/OwlGroup/OwlHead",
+          "path": "Root/OwlGroup/OwlHead/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeL",
+          "name": "OwlEyeL",
+          "parentPath": "Root/OwlGroup",
+          "path": "Root/OwlGroup/OwlEyeL",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.15800000727176666,
+              0.19300000369548798,
+              0.0729999989271164
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.12999999523162842,
+              0.12999999523162842,
+              0.09000000357627869
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/OwlGroup/OwlEyeL",
+          "path": "Root/OwlGroup/OwlEyeL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeR",
+          "name": "OwlEyeR",
+          "parentPath": "Root/OwlGroup",
+          "path": "Root/OwlGroup/OwlEyeR",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.20200000703334808,
+              0.19300000369548798,
+              0.0729999989271164
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.12999999523162842,
+              0.12999999523162842,
+              0.09000000357627869
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/OwlGroup/OwlEyeR",
+          "path": "Root/OwlGroup/OwlEyeR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarL",
+          "name": "OwlEarL",
+          "parentPath": "Root/OwlGroup",
+          "path": "Root/OwlGroup/OwlEarL",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.1550000011920929,
+              0.2460000067949295,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.08715548366308212,
+              0.9961947202682495
+            ],
+            "scale": [
+              0.11000000685453415,
+              0.17000000178813934,
+              0.10999999940395355
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/OwlGroup/OwlEarL",
+          "path": "Root/OwlGroup/OwlEarL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarR",
+          "name": "OwlEarR",
+          "parentPath": "Root/OwlGroup",
+          "path": "Root/OwlGroup/OwlEarR",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.20499999821186066,
+              0.2460000067949295,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0.08715548366308212,
+              0.9961947202682495
+            ],
+            "scale": [
+              0.11000000685453415,
+              0.17000000178813934,
+              0.10999999940395355
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/OwlGroup/OwlEarR",
+          "path": "Root/OwlGroup/OwlEarR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup",
+          "name": "MintGroup",
+          "parentPath": "Root",
+          "path": "Root/MintGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintHead",
+          "name": "MintHead",
+          "parentPath": "Root/MintGroup",
+          "path": "Root/MintGroup/MintHead",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.30000001192092896,
+              0.1899999976158142,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.44999998807907104,
+              0.44999998807907104,
+              0.30000001192092896
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintHead/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/MintGroup/MintHead",
+          "path": "Root/MintGroup/MintHead/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafL",
+          "name": "MintLeafL",
+          "parentPath": "Root/MintGroup",
+          "path": "Root/MintGroup/MintLeafL",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.2770000100135803,
+              0.23800000548362732,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.2164396047592163,
+              0.9762960076332092
+            ],
+            "scale": [
+              0.10000000149011612,
+              0.22499999403953552,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/MintGroup/MintLeafL",
+          "path": "Root/MintGroup/MintLeafL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafR",
+          "name": "MintLeafR",
+          "parentPath": "Root/MintGroup",
+          "path": "Root/MintGroup/MintLeafR",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.3230000138282776,
+              0.23800000548362732,
+              0.03999999910593033
+            ],
+            "rotation": [
+              0,
+              0,
+              0.2164396047592163,
+              0.9762960076332092
+            ],
+            "scale": [
+              0.10000000149011612,
+              0.22499999403953552,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/MintGroup/MintLeafR",
+          "path": "Root/MintGroup/MintLeafR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintBerry",
+          "name": "MintBerry",
+          "parentPath": "Root/MintGroup",
+          "path": "Root/MintGroup/MintBerry",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.30000001192092896,
+              0.16500000655651093,
+              0.07400000095367432
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.14000000059604645,
+              0.14000000059604645,
+              0.10999999940395355
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/MintGroup/MintBerry/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/MintGroup/MintBerry",
+          "path": "Root/MintGroup/MintBerry/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup",
+          "name": "PopFxGroup",
+          "parentPath": "Root",
+          "path": "Root/PopFxGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup/PopCore",
+          "name": "PopCore",
+          "parentPath": "Root/PopFxGroup",
+          "path": "Root/PopFxGroup/PopCore",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.18000000715255737,
+              0.3400000035762787,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.20000000298023224,
+              0.20000000298023224,
+              0.20000000298023224
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup/PopCore/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/PopFxGroup/PopCore",
+          "path": "Root/PopFxGroup/PopCore/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardL",
+          "name": "PopShardL",
+          "parentPath": "Root/PopFxGroup",
+          "path": "Root/PopFxGroup/PopShardL",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.20499999821186066,
+              0.3400000035762787,
+              0.0020000000949949026
+            ],
+            "rotation": [
+              0,
+              0,
+              0.30070585012435913,
+              0.9537169337272644
+            ],
+            "scale": [
+              0.5,
+              0.1599999964237213,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardL/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/PopFxGroup/PopShardL",
+          "path": "Root/PopFxGroup/PopShardL/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardR",
+          "name": "PopShardR",
+          "parentPath": "Root/PopFxGroup",
+          "path": "Root/PopFxGroup/PopShardR",
+          "resources": {},
+          "transform": {
+            "position": [
+              -0.1550000011920929,
+              0.3400000035762787,
+              0.0020000000949949026
+            ],
+            "rotation": [
+              0,
+              0,
+              -0.30070585012435913,
+              0.9537169337272644
+            ],
+            "scale": [
+              0.5,
+              0.1599999964237213,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardR/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/PopFxGroup/PopShardR",
+          "path": "Root/PopFxGroup/PopShardR/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/LineFxGroup",
+          "name": "LineFxGroup",
+          "parentPath": "Root",
+          "path": "Root/LineFxGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/LineFxGroup/LineBeam",
+          "name": "LineBeam",
+          "parentPath": "Root/LineFxGroup",
+          "path": "Root/LineFxGroup/LineBeam",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.3400000035762787,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.399999976158142,
+              0.09000000357627869,
+              0.09000000357627869
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/LineFxGroup/LineBeam/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/LineFxGroup/LineBeam",
+          "path": "Root/LineFxGroup/LineBeam/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/LineFxGroup/LineHalo",
+          "name": "LineHalo",
+          "parentPath": "Root/LineFxGroup",
+          "path": "Root/LineFxGroup/LineHalo",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0.3400000035762787,
+              -0.004999999888241291
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              3.4000000953674316,
+              0.5,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/LineFxGroup/LineHalo/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/LineFxGroup/LineHalo",
+          "path": "Root/LineFxGroup/LineHalo/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup",
+          "name": "BombFxGroup",
+          "parentPath": "Root",
+          "path": "Root/BombFxGroup",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup/BombCore",
+          "name": "BombCore",
+          "parentPath": "Root/BombFxGroup",
+          "path": "Root/BombFxGroup/BombCore",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.2199999988079071,
+              0.3400000035762787,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              0.25,
+              0.25,
+              0.25
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup/BombCore/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BombFxGroup/BombCore",
+          "path": "Root/BombFxGroup/BombCore/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup/BombRing",
+          "name": "BombRing",
+          "parentPath": "Root/BombFxGroup",
+          "path": "Root/BombFxGroup/BombRing",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.2199999988079071,
+              0.3400000035762787,
+              -0.004000000189989805
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1.399999976158142,
+              1.399999976158142,
+              0.10000000149011612
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup/BombRing/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BombFxGroup/BombRing",
+          "path": "Root/BombFxGroup/BombRing/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup/BombSpark",
+          "name": "BombSpark",
+          "parentPath": "Root/BombFxGroup",
+          "path": "Root/BombFxGroup/BombSpark",
+          "resources": {},
+          "transform": {
+            "position": [
+              0.2199999988079071,
+              0.38199999928474426,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              1,
+              -4.371138828673793e-8
+            ],
+            "scale": [
+              0.12999999523162842,
+              0.25,
+              0.12999999523162842
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "bounds": null,
+          "components": [],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup/BombSpark/DefaultMaterial",
+          "name": "DefaultMaterial",
+          "parentPath": "Root/BombFxGroup/BombSpark",
+          "path": "Root/BombFxGroup/BombSpark/DefaultMaterial",
+          "resources": {},
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        }
+      ],
+      "entityCount": 84,
+      "guid": "32261db9-d32a-4466-9b5c-3468b884a3e2",
+      "hierarchy": [
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBase/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BoardGroup/BoardBase/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBase",
+              "name": "BoardBase",
+              "path": "Root/BoardGroup/BoardBase",
+              "transform": {
+                "position": [
+                  0,
+                  0.03999999910593033,
+                  0.019999999552965164
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  4.599999904632568,
+                  0.4000000059604645,
+                  1.5
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BoardGroup/BoardDeck/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BoardGroup/BoardDeck/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BoardGroup/BoardDeck",
+              "name": "BoardDeck",
+              "path": "Root/BoardGroup/BoardDeck",
+              "transform": {
+                "position": [
+                  0,
+                  0.0949999988079071,
+                  0.019999999552965164
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  4.099999904632568,
+                  0.15000000596046448,
+                  1.100000023841858
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBackplate/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BoardGroup/BoardBackplate/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BoardGroup/BoardBackplate",
+              "name": "BoardBackplate",
+              "path": "Root/BoardGroup/BoardBackplate",
+              "transform": {
+                "position": [
+                  0,
+                  0.25999999046325684,
+                  -0.08500000089406967
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  4.400000095367432,
+                  1.399999976158142,
+                  0.15000000596046448
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BoardGroup/BoardRim/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BoardGroup/BoardRim/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BoardGroup/BoardRim",
+              "name": "BoardRim",
+              "path": "Root/BoardGroup/BoardRim",
+              "transform": {
+                "position": [
+                  0,
+                  0.11800000071525574,
+                  0.019999999552965164
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  4.300000190734863,
+                  0.05000000074505806,
+                  1.25
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/BoardGroup",
+          "name": "BoardGroup",
+          "path": "Root/BoardGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FoxGroup/FoxHead/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FoxGroup/FoxHead/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FoxGroup/FoxHead",
+              "name": "FoxHead",
+              "path": "Root/FoxGroup/FoxHead",
+              "transform": {
+                "position": [
+                  -0.30000001192092896,
+                  0.1899999976158142,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  0.30000001192092896
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FoxGroup/FoxEarL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarL",
+              "name": "FoxEarL",
+              "path": "Root/FoxGroup/FoxEarL",
+              "transform": {
+                "position": [
+                  -0.3269999921321869,
+                  0.24500000476837158,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  -0.1564343124628067,
+                  0.9876883625984192
+                ],
+                "scale": [
+                  0.14000000059604645,
+                  0.20000000298023224,
+                  0.14000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FoxGroup/FoxEarR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FoxGroup/FoxEarR",
+              "name": "FoxEarR",
+              "path": "Root/FoxGroup/FoxEarR",
+              "transform": {
+                "position": [
+                  -0.27300000190734863,
+                  0.24500000476837158,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0.1564343124628067,
+                  0.9876883625984192
+                ],
+                "scale": [
+                  0.14000000059604645,
+                  0.20000000298023224,
+                  0.14000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FoxGroup/FoxMuzzle/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FoxGroup/FoxMuzzle/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FoxGroup/FoxMuzzle",
+              "name": "FoxMuzzle",
+              "path": "Root/FoxGroup/FoxMuzzle",
+              "transform": {
+                "position": [
+                  -0.30000001192092896,
+                  0.17499999701976776,
+                  0.07500000298023224
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.18000000715255737,
+                  0.15000000596046448,
+                  0.12999999523162842
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/FoxGroup",
+          "name": "FoxGroup",
+          "path": "Root/FoxGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BearGroup/BearHead/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BearGroup/BearHead/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BearGroup/BearHead",
+              "name": "BearHead",
+              "path": "Root/BearGroup/BearHead",
+              "transform": {
+                "position": [
+                  -0.18000000715255737,
+                  0.1899999976158142,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  0.30000001192092896
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BearGroup/BearEarL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BearGroup/BearEarL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BearGroup/BearEarL",
+              "name": "BearEarL",
+              "path": "Root/BearGroup/BearEarL",
+              "transform": {
+                "position": [
+                  -0.20800000429153442,
+                  0.23499999940395355,
+                  0.03200000151991844
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.14000000059604645,
+                  0.14000000059604645,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BearGroup/BearEarR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BearGroup/BearEarR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BearGroup/BearEarR",
+              "name": "BearEarR",
+              "path": "Root/BearGroup/BearEarR",
+              "transform": {
+                "position": [
+                  -0.15199999511241913,
+                  0.23499999940395355,
+                  0.03200000151991844
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.14000000059604645,
+                  0.14000000059604645,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BearGroup/BearMuzzle/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BearGroup/BearMuzzle/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BearGroup/BearMuzzle",
+              "name": "BearMuzzle",
+              "path": "Root/BearGroup/BearMuzzle",
+              "transform": {
+                "position": [
+                  -0.18000000715255737,
+                  0.1720000058412552,
+                  0.07500000298023224
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.1899999976158142,
+                  0.1599999964237213,
+                  0.125
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/BearGroup",
+          "name": "BearGroup",
+          "path": "Root/BearGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FrogGroup/FrogHead/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FrogGroup/FrogHead/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FrogGroup/FrogHead",
+              "name": "FrogHead",
+              "path": "Root/FrogGroup/FrogHead",
+              "transform": {
+                "position": [
+                  -0.05999999865889549,
+                  0.1899999976158142,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  0.30000001192092896
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FrogGroup/FrogEyeL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeL",
+              "name": "FrogEyeL",
+              "path": "Root/FrogGroup/FrogEyeL",
+              "transform": {
+                "position": [
+                  -0.0820000022649765,
+                  0.23199999332427979,
+                  0.06400000303983688
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.11999999731779099,
+                  0.11999999731779099,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FrogGroup/FrogEyeR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FrogGroup/FrogEyeR",
+              "name": "FrogEyeR",
+              "path": "Root/FrogGroup/FrogEyeR",
+              "transform": {
+                "position": [
+                  -0.03799999877810478,
+                  0.23199999332427979,
+                  0.06400000303983688
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.11999999731779099,
+                  0.11999999731779099,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/FrogGroup/FrogSmile/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/FrogGroup/FrogSmile/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/FrogGroup/FrogSmile",
+              "name": "FrogSmile",
+              "path": "Root/FrogGroup/FrogSmile",
+              "transform": {
+                "position": [
+                  -0.05999999865889549,
+                  0.16300000250339508,
+                  0.07199999690055847
+                ],
+                "rotation": [
+                  0.7071068286895752,
+                  0,
+                  0,
+                  0.7071068286895752
+                ],
+                "scale": [
+                  0.05999999865889549,
+                  0.0949999988079071,
+                  0.05999999865889549
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/FrogGroup",
+          "name": "FrogGroup",
+          "path": "Root/FrogGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/ChickGroup/ChickHead/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/ChickGroup/ChickHead/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/ChickGroup/ChickHead",
+              "name": "ChickHead",
+              "path": "Root/ChickGroup/ChickHead",
+              "transform": {
+                "position": [
+                  0.05999999865889549,
+                  0.1899999976158142,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  0.30000001192092896
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/ChickGroup/ChickBeak/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/ChickGroup/ChickBeak/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/ChickGroup/ChickBeak",
+              "name": "ChickBeak",
+              "path": "Root/ChickGroup/ChickBeak",
+              "transform": {
+                "position": [
+                  0.05999999865889549,
+                  0.17599999904632568,
+                  0.07999999821186066
+                ],
+                "rotation": [
+                  0.7071068286895752,
+                  0,
+                  0,
+                  0.7071068286895752
+                ],
+                "scale": [
+                  0.14000000059604645,
+                  0.14000000059604645,
+                  0.14000000059604645
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/ChickGroup/ChickCrestL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestL",
+              "name": "ChickCrestL",
+              "path": "Root/ChickGroup/ChickCrestL",
+              "transform": {
+                "position": [
+                  0.03999999910593033,
+                  0.24400000274181366,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.08500000089406967,
+                  0.08500000089406967,
+                  0.07000000029802322
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/ChickGroup/ChickCrestR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/ChickGroup/ChickCrestR",
+              "name": "ChickCrestR",
+              "path": "Root/ChickGroup/ChickCrestR",
+              "transform": {
+                "position": [
+                  0.07999999821186066,
+                  0.24400000274181366,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.08500000089406967,
+                  0.08500000089406967,
+                  0.07000000029802322
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/ChickGroup",
+          "name": "ChickGroup",
+          "path": "Root/ChickGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/OwlGroup/OwlHead/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/OwlGroup/OwlHead/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/OwlGroup/OwlHead",
+              "name": "OwlHead",
+              "path": "Root/OwlGroup/OwlHead",
+              "transform": {
+                "position": [
+                  0.18000000715255737,
+                  0.1899999976158142,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  0.30000001192092896
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/OwlGroup/OwlEyeL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeL",
+              "name": "OwlEyeL",
+              "path": "Root/OwlGroup/OwlEyeL",
+              "transform": {
+                "position": [
+                  0.15800000727176666,
+                  0.19300000369548798,
+                  0.0729999989271164
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.09000000357627869
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/OwlGroup/OwlEyeR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEyeR",
+              "name": "OwlEyeR",
+              "path": "Root/OwlGroup/OwlEyeR",
+              "transform": {
+                "position": [
+                  0.20200000703334808,
+                  0.19300000369548798,
+                  0.0729999989271164
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.12999999523162842,
+                  0.09000000357627869
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/OwlGroup/OwlEarL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarL",
+              "name": "OwlEarL",
+              "path": "Root/OwlGroup/OwlEarL",
+              "transform": {
+                "position": [
+                  0.1550000011920929,
+                  0.2460000067949295,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  -0.08715548366308212,
+                  0.9961947202682495
+                ],
+                "scale": [
+                  0.11000000685453415,
+                  0.17000000178813934,
+                  0.10999999940395355
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/OwlGroup/OwlEarR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/OwlGroup/OwlEarR",
+              "name": "OwlEarR",
+              "path": "Root/OwlGroup/OwlEarR",
+              "transform": {
+                "position": [
+                  0.20499999821186066,
+                  0.2460000067949295,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0.08715548366308212,
+                  0.9961947202682495
+                ],
+                "scale": [
+                  0.11000000685453415,
+                  0.17000000178813934,
+                  0.10999999940395355
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/OwlGroup",
+          "name": "OwlGroup",
+          "path": "Root/OwlGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/MintGroup/MintHead/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/MintGroup/MintHead/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/MintGroup/MintHead",
+              "name": "MintHead",
+              "path": "Root/MintGroup/MintHead",
+              "transform": {
+                "position": [
+                  0.30000001192092896,
+                  0.1899999976158142,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  0.30000001192092896
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/MintGroup/MintLeafL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafL",
+              "name": "MintLeafL",
+              "path": "Root/MintGroup/MintLeafL",
+              "transform": {
+                "position": [
+                  0.2770000100135803,
+                  0.23800000548362732,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  -0.2164396047592163,
+                  0.9762960076332092
+                ],
+                "scale": [
+                  0.10000000149011612,
+                  0.22499999403953552,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/MintGroup/MintLeafR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/MintGroup/MintLeafR",
+              "name": "MintLeafR",
+              "path": "Root/MintGroup/MintLeafR",
+              "transform": {
+                "position": [
+                  0.3230000138282776,
+                  0.23800000548362732,
+                  0.03999999910593033
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0.2164396047592163,
+                  0.9762960076332092
+                ],
+                "scale": [
+                  0.10000000149011612,
+                  0.22499999403953552,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/MintGroup/MintBerry/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/MintGroup/MintBerry/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/MintGroup/MintBerry",
+              "name": "MintBerry",
+              "path": "Root/MintGroup/MintBerry",
+              "transform": {
+                "position": [
+                  0.30000001192092896,
+                  0.16500000655651093,
+                  0.07400000095367432
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.14000000059604645,
+                  0.14000000059604645,
+                  0.10999999940395355
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/MintGroup",
+          "name": "MintGroup",
+          "path": "Root/MintGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/PopFxGroup/PopCore/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/PopFxGroup/PopCore/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/PopFxGroup/PopCore",
+              "name": "PopCore",
+              "path": "Root/PopFxGroup/PopCore",
+              "transform": {
+                "position": [
+                  -0.18000000715255737,
+                  0.3400000035762787,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.20000000298023224,
+                  0.20000000298023224,
+                  0.20000000298023224
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardL/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/PopFxGroup/PopShardL/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardL",
+              "name": "PopShardL",
+              "path": "Root/PopFxGroup/PopShardL",
+              "transform": {
+                "position": [
+                  -0.20499999821186066,
+                  0.3400000035762787,
+                  0.0020000000949949026
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0.30070585012435913,
+                  0.9537169337272644
+                ],
+                "scale": [
+                  0.5,
+                  0.1599999964237213,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardR/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/PopFxGroup/PopShardR/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/PopFxGroup/PopShardR",
+              "name": "PopShardR",
+              "path": "Root/PopFxGroup/PopShardR",
+              "transform": {
+                "position": [
+                  -0.1550000011920929,
+                  0.3400000035762787,
+                  0.0020000000949949026
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  -0.30070585012435913,
+                  0.9537169337272644
+                ],
+                "scale": [
+                  0.5,
+                  0.1599999964237213,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/PopFxGroup",
+          "name": "PopFxGroup",
+          "path": "Root/PopFxGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/LineFxGroup/LineBeam/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/LineFxGroup/LineBeam/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/LineFxGroup/LineBeam",
+              "name": "LineBeam",
+              "path": "Root/LineFxGroup/LineBeam",
+              "transform": {
+                "position": [
+                  0,
+                  0.3400000035762787,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.399999976158142,
+                  0.09000000357627869,
+                  0.09000000357627869
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/LineFxGroup/LineHalo/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/LineFxGroup/LineHalo/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/LineFxGroup/LineHalo",
+              "name": "LineHalo",
+              "path": "Root/LineFxGroup/LineHalo",
+              "transform": {
+                "position": [
+                  0,
+                  0.3400000035762787,
+                  -0.004999999888241291
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  3.4000000953674316,
+                  0.5,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/LineFxGroup",
+          "name": "LineFxGroup",
+          "path": "Root/LineFxGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        },
+        {
+          "active": true,
+          "children": [
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BombFxGroup/BombCore/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BombFxGroup/BombCore/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BombFxGroup/BombCore",
+              "name": "BombCore",
+              "path": "Root/BombFxGroup/BombCore",
+              "transform": {
+                "position": [
+                  0.2199999988079071,
+                  0.3400000035762787,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  0.25,
+                  0.25,
+                  0.25
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BombFxGroup/BombRing/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BombFxGroup/BombRing/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BombFxGroup/BombRing",
+              "name": "BombRing",
+              "path": "Root/BombFxGroup/BombRing",
+              "transform": {
+                "position": [
+                  0.2199999988079071,
+                  0.3400000035762787,
+                  -0.004000000189989805
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "scale": [
+                  1.399999976158142,
+                  1.399999976158142,
+                  0.10000000149011612
+                ]
+              },
+              "type": "Entity"
+            },
+            {
+              "active": true,
+              "children": [
+                {
+                  "active": true,
+                  "children": [],
+                  "entityId": "scene:match3animalheads:Root/BombFxGroup/BombSpark/DefaultMaterial",
+                  "name": "DefaultMaterial",
+                  "path": "Root/BombFxGroup/BombSpark/DefaultMaterial",
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ],
+                    "rotation": [
+                      0,
+                      0,
+                      0,
+                      1
+                    ],
+                    "scale": [
+                      1,
+                      1,
+                      1
+                    ]
+                  },
+                  "type": "Entity"
+                }
+              ],
+              "entityId": "scene:match3animalheads:Root/BombFxGroup/BombSpark",
+              "name": "BombSpark",
+              "path": "Root/BombFxGroup/BombSpark",
+              "transform": {
+                "position": [
+                  0.2199999988079071,
+                  0.38199999928474426,
+                  0
+                ],
+                "rotation": [
+                  0,
+                  0,
+                  1,
+                  -4.371138828673793e-8
+                ],
+                "scale": [
+                  0.12999999523162842,
+                  0.25,
+                  0.12999999523162842
+                ]
+              },
+              "type": "Entity"
+            }
+          ],
+          "entityId": "scene:match3animalheads:Root/BombFxGroup",
+          "name": "BombFxGroup",
+          "path": "Root/BombFxGroup",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "rotation": [
+              0,
+              0,
+              0,
+              1
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "type": "Entity"
+        }
+      ],
+      "id": "scene:match3animalheads",
+      "name": "Match3AnimalHeads",
+      "rootCount": 10,
+      "sourcePath": "Sources/Scenes/Match3AnimalHeads.usda",
+      "warnings": []
+    }
+  ],
+  "schemaVersion": "0.1",
+  "scope": "bundle_scenes",
+  "source": "pack_editor_bundle",
+  "sourceTool": "export_bundle_scene_manifest",
+  "warnings": []
+}

@@ -1,0 +1,47 @@
+{
+  "referenceApk": "com.happyelements.AndroidAnimal.1.162.he.apk",
+  "assets": [
+    {
+      "source": "assets/resource/amf/mainscene/trunkskin/trunk_2604/treeBg_2604.3978b02d5ea0672be5ed3500cc716b53.pk2mz",
+      "file": "treeBg_2604.png",
+      "size": [
+        430,
+        1490
+      ],
+      "format": 3,
+      "output": "distant-tree.png"
+    },
+    {
+      "source": "assets/resource/amf/mainscene/trunkskin/trunk_2604/trunkRoot.7afdf8cbb7145eb4b4db95d3c758d1d1.pk2mz",
+      "file": "trunkRoot.png",
+      "size": [
+        2048,
+        1104
+      ],
+      "format": 3,
+      "output": "forest.png"
+    },
+    {
+      "source": "assets/resource/amf/mainscene/trunkskin/trunk_2604/trunk_light_leaf.1a0c8431604f2c378458fe1ee9443a28.pk2mz",
+      "file": "trunk_light_leaf.png",
+      "size": [
+        430,
+        2000
+      ],
+      "format": 3,
+      "output": "tree.png"
+    },
+    {
+      "source": "assets/resource/amf/mainscene/bottomcloud/normalBottomCloud.11fa176ecbcd3305bc6842d7abd32d4d.pk2mz",
+      "file": "normalBottomCloud.png",
+      "size": [
+        1814,
+        382
+      ],
+      "format": 3,
+      "output": "clouds.png"
+    }
+  ],
+  "sky": "Procedural vertical gradient; original tree art is 2D, not a 360 cubemap.",
+  "processing": "Lossless PNG decoding from ETC2. Tree upper/lower alpha and forest lower alpha use smooth edge fades. No color recoloring."
+}

@@ -1,0 +1,37 @@
+{
+  "source": "assets/resource/ubf_app/items/AnimalEffect_0.1d462966c72185f913c1747d4c803c81.pk2mz",
+  "sequences": {
+    "normal": {
+      "animation": "animal_vfx_basic",
+      "frames": 16,
+      "sourceSize": [
+        90,
+        90
+      ]
+    },
+    "bomb": {
+      "animation": "animal_vfx_boom",
+      "frames": 22,
+      "sourceSize": [
+        339,
+        356
+      ]
+    },
+    "line": {
+      "animation": "animal_vfx_zhixian_normal",
+      "frames": 10,
+      "sourceSize": [
+        1499,
+        160
+      ]
+    },
+    "combine": {
+      "animation": "animal_vfx_hecheng",
+      "frames": 14,
+      "sourceSize": [
+        150,
+        150
+      ]
+    }
+  }
+}
